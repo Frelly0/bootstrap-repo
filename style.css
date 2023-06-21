@@ -1,0 +1,22 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#header {
+    display: flex;
+    flex-direction: column;
+    background-image: url(./image/Header-llustration.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+}
+.btn {
+    font-size: 11px;
+}
+.cards {
+    gap: 15px;
+    /* flex-wrap: wrap; */
+}
